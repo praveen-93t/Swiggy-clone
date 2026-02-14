@@ -78,13 +78,14 @@ html,body{
     border-radius: 10%;
     outline: none; 
     border: none;
-    align-items: center;
+    /* align-items: center; */
     
 }
 
 .icon{
     height: 60%;
     width: 10%;
+    margin-left: 5%;
     margin-top: 2%;
     margin-right: 5%;
 }
@@ -341,7 +342,7 @@ hr{
 
 
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     .nav-links{
         display: none;
         flex-direction: column;
@@ -430,6 +431,189 @@ hr{
     
 }
 
+@media (max-width: 320px){
+    .nav-links{
+        display: none;
+        flex-direction: column;
+    }
+
+    #hero{
+        
+        background-size: cover;
+        background-position: center;
+    }
+
+    .or{
+        font-size: 500%;
+    }
+
+    .order{
+        flex-direction: column;
+        align-items: center;
+        font-size: 300%;
+    }
+
+    .order img{
+        width: 150%;
+    }
+    .search{
+        margin-left: 50px;
+    }
+
+    .m1{
+        /* margin-top: 30px; */
+        width: 90%;
+        margin: 15% auto;
+        text-align: center;
+    }
+
+    .fd ,.im,.do {
+        padding-right: 50px;
+        
+    }
+    .img1{
+        width: 100%;
+    }
+    .rt{
+        width: 20px;
+    }
+
+    .fp1{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .offer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .offer h1{
+        font-size: medium;
+    }
+
+    .dine{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #app{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .food {
+        flex-direction: column;
+        text-align: center;
+    }
+    .sl{
+        flex-direction: column;
+        text-align: center  ;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        display: grid;
+        align-items: center;
+    }
+
+    
+}
+
+
+@media (max-width: 425px){
+    .nav-links{
+        display: none;
+        flex-direction: column;
+    }
+
+    #hero{
+        
+        background-size: cover;
+        background-position: center;
+    }
+
+    .or{
+        font-size: 500%;
+    }
+
+    .order{
+        flex-direction: column;
+        align-items: center;
+        font-size: 300%;
+    }
+
+    .order img{
+        width: 150%;
+    }
+
+    .m1{
+        /* margin-top: 30px; */
+        width: 90%;
+        margin: 15% auto;
+        text-align: center;
+    }
+
+    .fd ,.im,.do {
+        padding-right: 50px;
+        
+    }
+    .img1{
+        width: 100%;
+    }
+    .rt{
+        width: 20px;
+    }
+
+    .fp1{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .offer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 90%;
+    }
+
+    .offer h1{
+        font-size: medium;
+    }
+
+    .dine{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #app{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .food {
+        flex-direction: column;
+        text-align: center;
+    }
+    .sl{
+        flex-direction: column;
+        text-align: center  ;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        display: grid;
+        align-items: center;
+    }
+
+    
+}
+
+
 @media (max-width: 768px){
     .nav-links{
         /* display: none; */
@@ -445,7 +629,12 @@ hr{
     .or{
         font-size: 500%;
     }
-
+    #location{
+        height: 40px;
+    }
+    .search{
+        margin-left: 60px;
+    }
     .order{
         flex-direction: column;
         align-items: center;

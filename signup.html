@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+    <link rel="stylesheet" href="signup.css" />
+</head>
+<body>
+    <section>
+        <div >
+            <form class="cat"  action="login.html">
+                <h2><u>Create an account</u></h2>
+                <label>First Name</label> 
+                <input class="in" type="text" text="text" placeholder=" qwert" required >
+                <label>Last Name</label>
+                <input class="in" type="text" text="text" placeholder=" asdfg" required >
+                <label>Phone Number</label>    
+                <input class="in" type="tel" pattern="[0-9]{10}" placeholder=" 9347007461" required maxlength="10">
+                <label>E-Mail Id</label>
+                <input class="in" type="email" text="email" placeholder=" pvn12@gmail.com" required  >
+                <lavel for="user-password">Password</lavel>
+                <input class="in" type="password" id="user-password" placeholder=" pra@123" required minlength="8" > 
+                
+                <div id="dt">
+                    <button class="can">Cancel</button>
+                    <button class="con" type="submit">Confirm</button>
+                </div>
+                <div>
+                    <p>Already have an account? <a href="login.html" id="log"><b>Login</b></a></p>
+                </div>
+            
+            </form>
+
+        </section>
+
+
+</body>
+</html>

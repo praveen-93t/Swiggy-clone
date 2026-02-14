@@ -1,0 +1,37 @@
+.gt{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: tomato;
+    margin-top: 90px;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+button{
+    background-color: wheat;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50px;
+
+}
+.gt p{
+    width: 250px;
+    color: aliceblue;
+    font-size: medium;
+}
+.text{
+    height: 30px;
+    outline: none; 
+    border: none;
+    
+}
+
+textarea{
+    outline: none; 
+    border: none;
+}

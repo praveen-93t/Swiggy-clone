@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggylite</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section id="food">
+        <div id="br">
+          <h1>Biryani</h1>
+          <div class="card">
+              <div>
+                <p class="p0">Family Pack Chicken Biryani</p>
+                <p>₹ 999</p>
+                <p>A generous portion of Karnataka-style chicken biryani, perfect for families. Serves 3-4 people</p>
+              </div>
+              <div>
+                <img src="https://www.biryanipotmobile.com/wp-content/uploads/2022/02/chicken-biryani-bp.jpg" alt="">
+               
+                  <button onclick="addToCart('Family Pack Chicken Biryani', 999,this)" class="btn">Add to Cart</button>
+              </div>
+          </div>
+          <div class="card" >
+              <div>
+                <p class="p0">Bucket Mutton Biriyani</p>
+                <p>₹ 2199</p>
+                <p>A grand bucket of aromatic mutton biryani, slow-cooked with premium spices. Serves 7-8 people</p>
+              </div>
+              <div>
+                <img src="https://fullybiryani.com/assets/img/new2/mutton-biriyani-tab.webp" alt="">
+               
+                  <button onclick="addToCart('Bucket Mutton Biriyani', 2199,this)" class="btn">Add to Cart</button>
+                </div>
+          </div>
+          <div class="card">
+              <div>
+                <p class="p0">Bowl Mutton Biryani</p>
+                <p>₹ 499</p>
+                <p>Savor the richness of slow-cooked mutton biryani in a convenient, single-serve bowl</p>
+              </div>
+              <div>
+                  <img src="https://img.freepik.com/free-photo/side-close-up-view-spices-pilaf-board-bowls-colorful-spices_140725-74084.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+              
+                  <button onclick="addToCart('Bowl Mutton Biryani', 499,this)" class="btn">Add to Cart</button>
+              </div>
+          </div>
+        </div>
+
+        <div id="bu">
+          <h1>Burger</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Chicken Burgers</p>
+              <p>₹ 99</p>
+              <p>We use ingredients like caramelized onions, mayonnaise, and the perfect blend of seasonings to make</p>
+            </div>
+            <div>
+              <img src="https://hips.hearstapps.com/hmg-prod/images/chicken-burgers-index-667b185b5f528.jpg?crop=0.500xw:1.00xh;0.282xw,0&resize=1200:*" alt="">
+              <button onclick="addToCart('Chicken Burgers',99,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Thick and Juicy Home-Ground Grilled Cheeseburgers</p>
+              <p>₹ 69</p>
+              <p>Up your burger game by grinding your own meat. For certain cooking methods, the superior texture</p>
+            </div>
+            <div>
+              <img src="https://www.seriouseats.com/thmb/pUE9Dw4RjWKEG4JED7whaHoIzNg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20250523-SEA-ThickandJuicyCheeseburgers-LorenaMasso-HERO-68563a45a4184a0e82c5a8b9f68a719d.jpg" alt="">
+              <button onclick="addToCart('Thick and Juicy Home-Ground Grilled Cheeseburgers',69,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Best Burger Recipe (So Juicy, Grill Or Stovetop)</p>
+              <p>₹ 49</p>
+              <p>This is my best burger recipe for homemade, juicy burgers, thanks to 2 simple secret ingredients</p>
+            </div>
+            <div>
+              <img src="https://www.wholesomeyum.com/wp-content/uploads/2023/06/wholesomeyum-Best-Burger-Recipe-12.jpg" alt="">
+              <button onclick="addToCart('Best Burger Recipe (So Juicy, Grill Or Stovetop)',49,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="ca">
+          <h1>Cake</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Bakingo Blackforest Cake</p>
+              <p>₹ 499</p>
+              <p>Baked with the richness of cocoa and lusciousness of fresh vanilla cream topped with soft 
+                chocolate shavings and fresh cherries this delicious cake will make you surrender to the zest forces of Sweet Indulgence.</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ6_FEY4OQ6E77Oecm8s45OFwALD8xYE5L9UJGFbfoz0RLLJgMfhvFjgIl3K4J-i477iIdef2X9p8u3s-eYsRt8OEdvTsQyLg" alt="">
+              <button onclick="addToCart('Bakingo Blackforest Cake',499,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Velvet Delight Mini Cake</p>
+              <p>₹ 395</p>
+              <p>Indulge your sweet tooth with this decadent Red Velvet mini cake,Delight in the rich, velvety texture and luscious cream cheese frosting of this classic dessert.</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQp-6DnrxfHoIm_ceJGPsDfvVwfqqRWS_oVyVbYaNM0gP9WkABlrC1J1Wfz3RZfy61pZOzjt1DI93eFU5q-pXfqvEkOZPPw" alt="">
+              <button onclick="addToCart('Velvet Delight Mini Cake',395,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Velvety Sugar Free Truffle Cake</p>
+              <p>₹ 999</p>
+              <p>Indulge in a guilt-free treat with the Velvety Sugar Free Truffle Cake, a premium dessert designed for health-conscious chocolate lovers.</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS2aMUlPoFG_L3eCa7qUkxD9jOqdJIVoBtoi2yIGut6j8wm6CQOsk9wadipY5VdjaIqSe12TPWr0zQwAD-YiELfl0QXjvhl" alt="">
+              <button onclick="addToCart('Velvety Sugar Free Truffle Cake',999,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="do">
+          <h1>Dosa</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Masala dosa</p>
+              <p>₹ 70</p>
+              <p>a dish of South India, consisting of a savoury dosa crepe stuffed with a spiced (masala) potato curry. It is a popular breakfast item in South India.</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO8owQcHu1csisSyh9hXKZ1f7eWK2hmbp7ZQ&s" alt="">
+              <button onclick="addToCart('Masala dosa',70,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Plain Dosa</p>
+              <p>₹ 40</p>
+              <p>Whether it's breakfast, lunch or dinner, Plain Dosa is a dish that satisfies your taste buds.</p>
+            </div>
+            <div>
+              <img src="https://www.awesomecuisine.com/wp-content/uploads/2009/06/Plain-Dosa.jpg" alt="">
+              <button onclick="addToCart('Plain Dosa',40,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="ic">
+          <h1>Ice cream</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Kwality Wall'S Butterscotch Cornetto</p>
+              <p>₹ 40</p>
+              <p>Savour the rich and creamy delight of Kwality Walls Cornetto Butterscotch. This irresistible treat combines smooth butterscotch ice cream with a crispy cone.</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTLYcOzUcZQ-x4w6HQd4ytQfrIQw0QY-wv_SCSHfLeY0I9GIlJjzgiCICiPXsSQzHjrxw1ujD_jPDEHW1PSkx5osUmJgCxwAc4a584WTw3Jcb3XwDp_zHHwrA" alt="">
+              <button onclick="addToCart('Kwality Wall S Butterscotch Cornetto',40,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Amul Ice Cream Chocolate Brownie 500 ml Cup</p>
+              <p>₹ 99</p>
+              <p>Savour the decadent allure of Amul's Chocolate Brownie Ice Cream, where creamy cocoa indulgence meets irresistible chunks of fudgy brownie. </p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSd5OWO_vKjxzmBSYpoVWLio6Z9nC3GqFi70Th4-W_b_ww6IQkVbzf3LALhNzmDLINFnfwzWZqG0Z1cbwlkeOu_9CLgx-Hvqw" alt="">
+              <button onclick="addToCart('Amul Ice Cream Chocolate Brownie 500 ml Cup',99,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        <div id="id">
+          <h1>Idly</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Soft Fluffy Rice Idly</p>
+              <p>₹ 60</p>
+              <p>Table of Content Hide 1 Soft Fluffy Rice Idly 1.1 Recommended Recipes 2 Some Interesting</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJyxGqxV9rtlKmyS8mSoideN0D2Z5vww5j7Q&s" alt="">
+              <button onclick="addToCart('Soft Fluffy Rice Idly',60,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Kushboo idli</p>
+              <p>₹ 80</p>
+              <p>Idli Sambar with Chutney, a traditional South Indian breakfast served on a banana leaf. The dish consists of steamed rice cakes (idli), a lentil and vegetable stew (sambar), and a coconut-based condiment (chutney).</p>
+            </div>
+            <div>
+              <img src="https://media.istockphoto.com/id/182491284/photo/idli-sambhar-and-chutney-south-indian-dish-on-banana-leaf.jpg?s=612x612&w=0&k=20&c=LCAfM8HrWBZsRZHTjAXzYAWvG63oDagBimAMXXq-zFk=" alt="">
+              <button onclick="addToCart('Kushboo idli',80,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        <div id="pa">
+          <h1>Pastry</h1>
+          
+          <div class="card">
+            <div>
+              <p class="p0">Chocolate Truffle Pastry</p>
+              <p>₹ 32</p>
+              <p>A Chocolate Truffle Pastry is a dense, indulgent dessert that replicates the richness of a chocolate truffle in a layered cake format. Unlike standard chocolate cakes, which are light and airy, a truffle pastry is known for its fudgy, velvet-like texture and intense chocolate flavour.</p>
+            </div>
+            <div>
+              <img src="https://kreamz.in/wp-content/uploads/2024/07/truffle-pastry.webp" alt="">
+              <button onclick="addToCart('Chocolate Truffle Pastry',32,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Fresh Pineapple Pastry</p>
+              <p>₹ 60</p>
+              <p>Indulge in the tropical sweetness of our Fresh Pineapple Pastry. Made with the freshest ingredients and baked to perfection, this pastry is sure to transport you to paradise!</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQeBLJsgU5MoU6rKfO-6GMWSXnE7rOCb74ZlN5GQNKLoeoo5VeTnCAvRJq8J63QbK4F2e4rCiFfSy9cvxSRtg3Vo7jKwaw9Z59N9sm_fsu6cvL3kcN99-UlGg" alt="">
+              <button onclick="addToCart('Fresh Pineapple Pastry',60,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="pi">
+          <h1>Pizza</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Farmhouse Pizza</p>
+              <p>₹ 249</p>
+              <p>Farmhouse Pizza is a classic, vegetable-heavy pizza known for its fresh, rustic toppings that mimic ingredients typically found on a farm. While recipes vary by region and restaurant, it is widely popularised by chains like Domino's as a signature vegetarian option.</p>
+            </div>
+            <div>
+              <img src="https://jambubakers.com/wp-content/uploads/2023/07/pizza.png" alt="">
+              <button onclick="addToCart('Farmhouse Pizza',249,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Cheese Burst Pizza - Veg</p>
+              <p>₹ 179</p>
+              <p>A Cheese Burst Pizza - Veg is a specialty pizza characterized by a double-layered crust filled with a molten, liquid cheese sauce.z</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRGm9bXOBUMgekFVUY4pdQ3cdR7Rg6ZmXRkSjp9xcUuF4ZiSFlvhdp-tDB7hOtfTpGfJHZChVMq7_tziGCmdeqGOpoLiCC_TQ" alt="">
+              <button onclick="addToCart('Cheese Burst Pizza - Veg',179,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="pa">
+          <h1>Parotta</h1>  
+          <div class="card">
+            <div>
+              <p class="p0">Parotta recipe/Kerala parotta recipe</p>
+              <p>₹ 60</p>
+              <p>A Kerala parotta (also known as Malabar parotta) is a layered, flaky flatbread that has become a iconic staple of South Indian street food.</p>
+            </div>
+            <div>
+              <img src="https://i0.wp.com/www.chitrasfoodbook.com/wp-content/uploads/2015/02/kerala-parotta.jpg?w=1200&ssl=1" alt="">
+              <button onclick="addToCart('Parotta recipe/Kerala parotta recipe',60,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Parotta Mutton Roast </p>
+              <p>₹ 199</p>
+              <p>Parotta Mutton Roast is a quintessential South Indian comfort food combination.street food where parottas are shredded and minced.</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_zVio1zG-MW2sC0KPOespltgpO4yYtgkJyA&s" alt="">
+              <button onclick="addToCart('Parotta Mutton Roast ',199,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="ro">
+          <h1>Rolls</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Roti Roll</p>
+              <p>₹ 80</p>
+              <p>A mouthwatering wrap recipe that will excite everyone</p>
+            </div>
+            <div>
+              <img src="https://recipesblob.oetker.in/assets/b777acee3b1b47299ae7f47715e926fd/1272x764/roti-roll.webp" alt="">
+              <button onclick="addToCart('Roti Roll',80,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Mutton Rolls</p>
+              <p>₹ 120</p>
+              <p>Every time I see videos of Sri Lankan mutton rolls I WANT THEM IMMEDIATELY. They always look </p>
+            </div>
+            <div>
+              <img src="https://ashbaber.com/wp-content/uploads/2023/09/Mutton-rolls-small.jpg" alt="">
+              <button onclick="addToCart('Mutton Rolls',120,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="sh">
+          <h1>Shake</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Best ever chocolate shake</p>
+              <p>₹ 50</p>
+              <p>A great alternative to a basic cold coffee is a chocolate shake</p>
+            </div>
+            <div>
+              <img src="https://bakewithshivesh.com/wp-content/uploads/2021/03/IMG-3300-scaled.jpg" alt="">
+              <button onclick="addToCart('Best ever chocolate shake',50,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Sharjah shake</p>
+              <p>₹ 60</p>
+              <p>simply banana milkshake. It is found in juice shops and bakeries. The taste is slightly</p>
+            </div>
+            <div>
+              <img src="https://vaya.in/recipes/wp-content/uploads/2018/02/Sharjah-shake.jpg" alt="">
+              <button onclick="addToCart('Sharjah shake',60,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="te">
+          <h1>Tea</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Indian Tea | Milk Tea Recipe | Homemade Chai</p>
+              <p>₹ 20</p>
+              <p>Indian tea, known as milk tea or chai, is an aromatic, delicious, and comforting hot beverage</p>
+            </div>
+            <div>
+              <img src="https://www.cookwithkushi.com/wp-content/uploads/2023/07/best_indian_chai_milk_tea_recipe.jpg" alt="">
+              <button onclick="addToCart('Indian Tea | Milk Tea Recipe | Homemade Chai',20,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Cinnamon Green Tea</p>
+              <p>₹ 30</p>
+              <p>Served hot or iced, this green tea contains cinnamon and ginger with a touch of mint</p>
+            </div>
+            <div>
+              <img src="https://www.aicr.org/wp-content/uploads/2020/06/peppermint-tea-on-teacup-1417945.jpg" alt="">
+              <button onclick="addToCart('Cinnamon Green Tea',30,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="va">
+          <h1>Vada</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Masala Vada (Chana Dal Vada)</p>
+              <p>₹ 30</p>
+              <p>Masala Vada, a crispy and savory deep fried fritter made from chana dal and spices, is a popular</p>
+            </div>
+            <div>
+              <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2015/08/masala-vada-1.jpg" alt="">
+              <button onclick="addToCart('Masala Vada (Chana Dal Vada)',30,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Uddina Vada Recipe</p>
+              <p>₹ 40</p>
+              <p>Uddina vada, also known as medu vada, are deep-fried savoury fritters that are soft on the inside</p>
+            </div>
+            <div>
+              <img src="https://vaya.in/recipes/wp-content/uploads/2018/02/dreamstime_xs_44383666.jpg" alt="">
+              <button onclick="addToCart('Uddina Vada Recipe',40,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+        <div id="no">
+          <h1>Noodles</h1>
+          <div class="card">
+            <div>
+              <p class="p0">Veg Noodles Recipe (Vegetable Noodles)</p>
+              <p>₹ 70</p>
+              <p>Super quick & delicious veg noodles made with lots of fresh vegetables, It's a complete meal</p>
+            </div>
+            <div>
+              <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/veg-noodles-vegetable-noodles-recipe.jpg" alt="">
+              <button onclick="addToCart('Veg Noodles Recipe (Vegetable Noodles)',70,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <p class="p0">Chinese Fried Noodles - Basic Recipe</p>
+              <p>₹ 99</p>
+              <p>During Veganuary (more about it here) we want to present you a few simple recipes that are quick</p>
+            </div>
+            <div>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShhbuBpqIMHMHsFu7t0xTYgaU17_d3FvG2bg&s" alt="">
+              <button onclick="addToCart('Chinese Fried Noodles - Basic Recipe',99,this)" class="btn">Add to  cart</button>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="grocery">
+      <div id="fr">
+        <h1>Fresh Vegetables</h1>
+        <div class="card">
+          <div>
+            <p class="p0">National Fresh Fruit and Vegetable</p>
+            <p>₹ 499</p>
+            <p>Fresh, organic, and locally grown vegetables—including staples like potatoes, onions, tomatoes, leafy greens, broccoli, and peppers</p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNalmTWEiRl61hHPqkD9E1s_Thcn28MSL7hg&s" alt="">
+            <button onclick="addToCart('National Fresh Fruit and Vegetable',499,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Tomatoes</p>
+            <p>₹ 30</p>
+            <p>Nutrient-dense, versatile fruits from the nightshade family, widely consumed as vegetables for their high content of Vitamin C, potassium, and the antioxidant lycopene.</p>
+          </div>
+          <div>
+            <img src="https://t4.ftcdn.net/jpg/05/37/04/61/360_F_537046123_s8JVn2NrClPQDOryhSm8jonYZPfIzPRX.jpg" alt="">
+            <button onclick="addToCart('Tomatoes',30,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="ff">
+        <h1>Fresh Fruits</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Apple Fruits</p>
+            <p>₹ 249</p>
+            <p>An apple is the round, edible fruit of an apple tree. Fruit trees of the orchard or domestic apple, the most widely grown in the genus, are cultivated worldwide.</p>
+          </div>
+          <div>
+            <img src="https://static.libertyprim.com/files/familles/pomme-large.jpg?1569271834" alt="">
+            <button onclick="addToCart('Apple Fruits',249,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Mangoes</p>
+            <p>₹ 69</p>
+            <p>Mangoes, the sweet and juicy tropical fruit, are not only a treat for your taste buds but also a powerhouse of nutrients that offer numerous health benefits. Packed with vitamins, minerals, and antioxidants, mangoes can be a valuable addition to a balanced diet</p>
+          </div>
+          <div>
+            <img src="https://www.metropolisindia.com/upgrade/blog/upload/25/05/benefits-of-mangoes1747828357.webp" alt="">
+            <button onclick="addToCart('Mangoes',69,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="tea">
+        <h1>Tea, Coffee and More</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Red Label Tea Ginger Pouch</p>
+            <p>₹ 49</p>
+            <p>High quality blend of tea rich in taste Taste of togetherness Processed in the unique Brooke Bond Tea Excellence Center. The taste of Brooke Bond Red Label tea helps you spread warmth and cheer in your family.</p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRCWJY0kLRIQmKJlTtYAhEYar0A4O4YD_i6z-LkyM17JU4E9_ppThNkn8jI3cWILTAxmELdxX5b8vfJC6Ykx4xkTJmac4z32qiKinFqg2tEicyEmOFYi4SfrA" alt="">
+            <button onclick="addToCart('Red Label Tea Ginger Pouch',49,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Coffee Powder </p>
+            <p>₹ 99</p>
+            <p>Globally popular brewed beverage made from roasted, ground seeds of Coffea plant fruits, known for its stimulating caffeine content and distinctive bitter flavor. </p>
+          </div>
+          <div>
+            <img src="https://i0.wp.com/vaerorganic.com/wp-content/uploads/2020/09/Coffee-Powder.png?fit=500%2C375&ssl=1" alt="">
+            <button onclick="addToCart(' Coffee Powder ',99,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="da">
+        <h1>Dairy, Bread and Eggs</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Bread </p>
+            <p>₹ 59</p>
+            <p>Bread is a baked food product made from water, flour, and often yeast. It is a staple food across the world, particularly in Europe and the Middle East.</p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREmBUgIvmR0hgjGzeOmIskPRGBwgi2tcUazH9GhLbVCVRyjoeCoGo3buvCRTdpaYVQk0NXF7X5NhEAy6JxgLWhXq6qFfKC5ZmlIHKUT2NVLg&s=10" alt="">
+            <button onclick="addToCart('Bread ',this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Egg</p>
+            <p>₹ 159</p>
+            <p>Eggs are a highly nutritious, versatile, and staple food, with chicken eggs being the most common, alongside duck, goose, and quail varieties. </p>
+          </div>
+          <div>
+            <img src="https://cdn.britannica.com/94/151894-050-F72A5317/Brown-eggs.jpg" alt="">
+            <button onclick="addToCart('Egg',159,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="ri">
+        <h1>Rice, Atta and Dals</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Rice</p>
+            <p>₹ 1499</p>
+            <p>Rice is a cereal grain and in its domesticated form is the staple food of over half of the world's population, particularly in India. Rice is the seed of the grass species Oryza sativa</p>
+          </div>
+          <div>
+            <img src="https://img.jagranjosh.com/images/2025/09/12/article/image/scientific-name-of-rice-1757656335124.jpg" alt="">
+            <button onclick="addToCart('Rice',1499,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Aashirvaad Chakki Atta</p>
+            <p>₹ 69</p>
+            <p>Aashirvaad Atta is made from premium whole wheat grains that have been carefully chosen from farms, so that all consumers get consistent quality within every packet.</p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS3ZHtwRaQXDoqhcZzbs7QZ8IYKd3IscLEF5gf62Dn_SUHxvFpsdPmpG_70qO5eKQkNgLfVIlsLWdM52g8COfEd0BuRQFDKzg" alt="">
+            <button onclick="addToCart('Aashirvaad Chakki Atta',69,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="ma">
+        <h1>Masalas and Dry Fruits</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Garam Masalas</p>
+            <p>₹ 39</p>
+            <p>Essential Indian spice blends or pastes—dry roasted powders or aromatic mixtures—used to add complex, deep flavors and aromas to curries, rice dishes, and snacks.</p>
+          </div>
+          <div>
+            <img src="https://www.indore.online/cdn/shop/articles/garam-masala-powder_500x.png?v=1669701767" alt="">
+            <button onclick="addToCart('Garam Masalas',39,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Organic Dry Fruits and Nuts Box</p>
+            <p>₹ 649</p>
+            <p>Dry fruits are nutrient-dense "powerhouses" packed with vitamins, minerals, fiber, and healthy fats that offer various health benefits when consumed in moderation.</p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRKybVxlYeRQtdc-kzX1dwWVaERQi_5z8XWU8MrDfgdbMnABBCpuFO-6g_8GCQ5ulZHeyev5FD8YK8N8Apeoaytmdr3j8mv2tTL45uMcGuKEpaxdP_zQpgFkA" alt="">
+            <button onclick="addToCart('Organic Dry Fruits and Nuts Box',649,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="oi">
+        <h1>Oils and Ghee</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Fortune Sunlite Refined Sunflower Oil</p>
+            <p>₹ 149</p>
+            <p>The best oil for Indian cooking depends on the dish, with mustard oil, ghee, coconut oil, peanut oil, and sesame oil being top choices, often used cold-pressed for nutrition.</p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQfkrVAqB3R4oveJ-TTENlZtwLEJnjOUDuzrbZZQxnHfrgucU6YaoWEFcjVOYgfy9Yxi5cFOUNa0x-Gjged7Cdx19df1fpXXfVwZWSxm1AfCPG7HGAe0fAJlzg" alt="">
+            <button onclick="addToCart('Fortune Sunlite Refined Sunflower Oil',149,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Amul High Aroma Cow Ghee 200 ml Jar</p>
+            <p>₹ 129</p>
+            <p>Chithirai Cow Ghee - Aromatic, Flavourful, Granular Cooking Medium, For Tempering, Frying </p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTp_DIq89QDAh2Pp8izMwjU3OtpeNrhBl6ASt_IbvU0HiT2hAcm5iOFQGOOhsOltmWuds3uvdRXsKVQ9HkE_SKZ6jBzBOsremnt0VlmRduP7cChHz1n_EW5" alt="">
+            <button onclick="addToCart('Amul High Aroma Cow Ghee 200 ml Jar',129,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="mu">
+        <h1>Munchies</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Frito Lay Munchies Flamin' Hot Flavored Snack Mix</p>
+            <p>₹ 79</p>
+            <p>The first brand to get the spicy flavor was Cheetos. Flamin' Hot was introduced to compete with spicy snacks sold in the inner-city mini-marts of the Midwest. Hot and spicy foods have surged in popularity.</p>
+          </div>
+          <div>
+            <img src="https://m.media-amazon.com/images/I/71hFDw9N+BL._AC_UF894,1000_QL80_.jpg" alt="">
+            <button onclick="addToCart('Frito Lay Munchies Flamin Hot Flavored Snack Mix',79,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Munchies Milk Chocolate & Caramel Tube 52g</p>
+            <p>₹ 69</p>
+            <p>Munchies are bite-sized confectionery treats produced by Nestlé, featuring a soft caramel center and a crispy biscuit shell encased in smooth milk chocolate.</p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjNUlRdHIFPasy753iqVqSMokCgEuYi4A-JE4cEttWGg&s" alt="">
+            <button onclick="addToCart('Munchies Milk Chocolate & Caramel Tube 52g',69,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="sw">
+        <h1>Sweet Tooth</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Kit Kat</p>
+            <p>₹ 49</p>
+            <p>The Indian version is tailored for the local market, leading to ingredient differences compared to other countries, but it remains a beloved "break" product in India.  </p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSTaRzYbzvYjRihhE5g7alIvF-0og5KB6eFWY5qM-5osLY_slSSAoxKZtgkYSXWV1DgbGYfThRmtORA0JDwyb6A8gRZzGkvxvQoArQsuz0Hrk46XO-Z-Lsv2EZV" alt="">
+            <button onclick="addToCart('Kit Kat',49,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Cadbury Special Gift Pack with Dairy Milk Silk</p>
+            <p>₹ 399</p>
+            <p>Dominates the Indian market with classic, beloved flavors, often topping sales charts and being synonymous with chocolate in India.</p>
+          </div>
+          <div>
+            <img src="https://m.media-amazon.com/images/I/61jjlbYpLgL.jpg" alt="">
+            <button onclick="addToCart('Cadbury Special Gift Pack with Dairy Milk Silk',399,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="me">
+        <h1>Meat and Seafood</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Fish Meat</p>
+            <p>₹ 149</p>
+            <p>Many species of fish are caught by humans and consumed as food in virtually all regions around the world. Their meat has been an important dietary source of protein and other nutrients in the human diet.</p>
+          </div>
+          <div>
+            <img src="https://5.imimg.com/data5/JY/TX/MY-3682375/fish-meat-1000x1000.jpg" alt="">
+            <button onclick="addToCart('Fish Meat',149,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Goat Boneless</p>
+            <p>₹ 999</p>
+            <p>Goat meat, commonly known as mutton in India or chevon, is a nutrient-dense, lean red meat that is lower in fat, calories, and cholesterol than beef, pork.</p>
+          </div>
+          <div>
+            <img src="https://proteinfresh.in/wp-content/uploads/2020/09/GOAT-BONELESS.png" alt="">
+            <button onclick="addToCart('Goat Boneless',999,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="cl">
+        <h1>Cleaning Essentials</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Wathare's Klean Essential Home Cleaning Kit (5 in 1)</p>
+            <p>₹ 499</p>
+            <p>Our Toilet Cleaner is specially formulated to deep clean and sanitize your toilet bowl, leaving it free from tough stains, germs, and bad odors.</p>
+          </div>
+          <div>
+            <img src="https://m.media-amazon.com/images/I/61mLUatDmpL._AC_UF1000,1000_QL80_.jpg" alt="">
+            <button onclick="addToCart('Wathare s Klean Essential Home Cleaning Kit (5 in 1)',499,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Cello Kleeno Tile Scrubber Brush</p>
+            <p>₹ 169</p>
+            <p>A scrubber (German: Schrubber), is a type of wide brush with a long shaft used for cleaning hard floors or surfaces. </p>
+          </div>
+          <div>
+            <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRDGBjcO9Ary_lNIp6WAEyLB_WH-lbnNvlaLkezXtpJgBGXRdouPfo-gp2Ecqffi75EjLAWATvWpZ7yrV3JRefB2Ov3CcJZw5avJDqzOTEXawTW4neZiCcK" alt="">
+            <button onclick="addToCart('Cello Kleeno Tile Scrubber Brush',169,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="pe">
+        <h1>Pet Supplies</h1>
+        <div class="card">
+          <div>
+            <p class="p0">Gnawlers Defense Dent Dental Care Chew Bones For Dogs</p>
+            <p>₹ 599</p>
+            <p>Gnawlers Dent defence is a tasty and premium line of pet dental treats that provides both superior oral health and total goodness of natural ingredients.</p>
+          </div>
+          <div>
+            <img src="https://ik.imagekit.io/supertails/cdn/shop/products/supertails_55_1-843004_600x.png?v=1739983814" alt="">
+            <button onclick="addToCart('Gnawlers Defense Dent Dental Care Chew Bones For Dogs',599,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <p class="p0">Whiskas Ocean Fish Flavour Adult Cat Dry Food</p>
+            <p>₹ 399</p>
+            <p>Whiskas Ocean Fish dry cat food is a meticulously crafted recipe that provides complete and balanced nutrition, catering to the unique dietary requirements of adult cats.</p>
+          </div>
+          <div>
+            <img src="https://ik.imagekit.io/supertails/cdn/shop/files/3_23_600x.jpg?v=1764332464" alt="">
+            <button onclick="addToCart('Whiskas Ocean Fish Flavour Adult Cat Dry Food',399,this)" class="btn">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+</body>
+</html>

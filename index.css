@@ -66,7 +66,7 @@ html,body{
 }
 #location{
     /* margin-left: 200%; */
-    height: 6vh;
+    height: 4vh;
     width: 150%;
     border-radius: 10%;
     outline: none; 
@@ -428,6 +428,12 @@ hr{
         align-items: center;
     }
 
+    #food{
+    flex-direction: column;
+    }
+    #grocery{
+    flex-direction: column;
+    }
     
 }
 
@@ -519,7 +525,12 @@ hr{
         display: grid;
         align-items: center;
     }
-
+    #food{
+    flex-direction: column;
+    }
+    #grocery{
+    flex-direction: column;
+    }
     
 }
 
@@ -601,7 +612,7 @@ hr{
     }
     .sl{
         flex-direction: column;
-        text-align: center  ;
+        text-align: center;
     }
     footer{
         flex-direction: column;
@@ -609,7 +620,6 @@ hr{
         display: grid;
         align-items: center;
     }
-
     
 }
 
@@ -677,6 +687,12 @@ hr{
     #app{
         flex-direction: column;
         text-align: center;
+    }
+    #food{
+        flex-direction: column;
+    }
+    #grocery{
+        flex-direction: column;
     }
     
 }
